@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form>
+        <h1>Temperature convertor</h1>
+        <label for="num">Enter value:</label><br>
+        <input type="number" id="num" value="0"><br>
+
+        <input type="radio" id="celtoFahren" name="radio">
+        <label for="celtoFahren">Celsius → Fahrenheit</label><br>
+        
+        <input type="radio" id="Fahrentocel" name="radio">
+        <label for="Fahrentocel">Fahrenheit  → Celsius</label><br>
+
+        <button type="button" id="submit" onclick="convert()">Submit</button>
+
+        <p id="result">Select a option above.</p>
+
+
+
+    </form>
+    
+
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
